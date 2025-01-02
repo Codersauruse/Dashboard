@@ -10,4 +10,14 @@ const activeState = atom({
   default: true,
 });
 
-export { expandedState, activeState };
+const timetableState = atom({
+  key: "timetableState",
+  default: [],
+});
+
+const tempTimetableState = atom({
+  key: "tempTimetableState",
+  default: [],
+});
+
+export { expandedState, activeState, timetableState, tempTimetableState };

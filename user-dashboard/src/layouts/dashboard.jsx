@@ -21,7 +21,7 @@ const Dashboard = () => {
 
   return (
     <>
-      <div className="relative min-h-screen">
+      <div>
         {/* Sidebar */}
         <div
           className={`fixed top-0 left-0 z-50 h-full transition-transform duration-300 ${
